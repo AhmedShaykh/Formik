@@ -8,7 +8,7 @@ const App: FC = () => {
         <div className='main'>
             <div>
                 <h1>
-                    Formik
+                    Formik Form
                 </h1>
 
                 <Formik />
@@ -16,7 +16,7 @@ const App: FC = () => {
 
             <div>
                 <h1>
-                    Yup
+                    Yup Form
                 </h1>
 
                 <Yup />
