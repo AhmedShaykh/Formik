@@ -1,5 +1,6 @@
 import { FC } from "react";
 import Formik from "./Components/Formik";
+import StepperComponent from "./Stepper";
 import Yup from "./Components/Yup";
 import "./App.css";
 
@@ -21,6 +22,9 @@ const App: FC = () => {
 
                 <Yup />
             </div>
+
+            <StepperComponent />
+
         </div>
     )
 };
